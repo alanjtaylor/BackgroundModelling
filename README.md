@@ -9,7 +9,7 @@ Tool for estimating the bias from a 2D fit
 
 The BackgroundModelling.py script computes the bias from the 2D fit. It can be ran like (for example):
 
-python BackgroundModelling.py -catName C2 -myy E1 -mjj E1 -yamlFile ConfigSpuriousC2.yaml
+    python BackgroundModelling.py -catName C2 -myy E1 -mjj E1 -yamlFile ConfigSpuriousC2.yaml
 
 where C2 is the name of the category, E1 (Exponential with one degree of freedom) is used to model the diphoton mass and the di-jet mass. More functions can be used but they must be defined inside the YAML file. The YAML file is a config file which should contain the following:
 
